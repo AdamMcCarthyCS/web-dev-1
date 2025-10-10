@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
   background-color: #87ceeb;
 }
 
@@ -9,8 +10,13 @@ h1, h2 {
 
 h1 {
   border-bottom: 1px solid black;
+  font-size: 150%;
 }
 
 em {
   color: red;
+}
+
+h2 {
+  font-size: 130%;
 }
