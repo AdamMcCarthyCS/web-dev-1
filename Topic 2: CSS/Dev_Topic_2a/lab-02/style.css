@@ -2,6 +2,12 @@ body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: small;
   background-color: #87ceeb;
+  line-height: 1.6em;
+  /* The last one uncommented will display according to the
+  rules of the cascade */
+  /* line-height: 200%; */
+  /* line-height: 0.5em; */
+  /* line-height: 20px; */
 }
 
 h1, h2 {
