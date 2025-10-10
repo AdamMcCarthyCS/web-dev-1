@@ -5,7 +5,8 @@ body {
 }
 
 h1, h2 {
-  color: gray
+  color: #007e7e;
+  border-bottom: 1px solid black;
 }
 
 h1 {
@@ -19,4 +20,8 @@ em {
 
 h2 {
   font-size: 130%;
+}
+
+p {
+  color: maroon;
 }
