@@ -1,0 +1,50 @@
+/* All parts of Lab2a are complete */
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  background-color: cornsilk;
+  line-height: 1.6em;
+  /* The last one uncommented will display according to the
+  rules of the cascade */
+  /* line-height: 200%; */
+  /* line-height: 0.5em; */
+  /* line-height: 20px; */
+  background-image: url(images/pexels-padrinan.jpg);
+  background-size: cover;
+
+}
+
+h1, h2 {
+  color: #007e7e;
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-shadow: 0 0 2px cyan;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-size: 150%;
+}
+
+em {
+  color: red;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  color: maroon;
+}
+
+.special {
+  color: red;
+}
+
+.favourites {
+  color: blue;
+  text-decoration: wavy underline fuchsia;
+}
+
