@@ -60,5 +60,10 @@ p {
   padding: 25px;
   padding-left: 80px;
   margin-right: 150px;
+
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
 }
 
