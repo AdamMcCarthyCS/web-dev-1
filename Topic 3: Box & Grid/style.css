@@ -48,3 +48,9 @@ p {
   text-decoration: wavy underline fuchsia;
 }
 
+.guarantee {
+  border: 1px solid black;
+  background-color: #a7cece;
+  margin: 30px;
+}
+
