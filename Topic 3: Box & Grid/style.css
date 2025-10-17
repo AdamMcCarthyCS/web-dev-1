@@ -49,7 +49,7 @@ p {
 }
 
 .guarantee {
-  border: 1px solid black;
+  border: 1px dashed #fff;
 
   background-color: #a7cece;
   background-image: url(./images/background.gif);
