@@ -55,5 +55,8 @@ p {
   background-image: url(./images/background.gif);
   background-repeat: no-repeat;
   background-position: left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 150px;
 }
 
