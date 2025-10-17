@@ -50,11 +50,13 @@ p {
 
 .guarantee {
   border: 1px solid black;
+
   background-color: #a7cece;
-  margin: 30px;
   background-image: url(./images/background.gif);
   background-repeat: no-repeat;
   background-position: left;
+  
+  margin: 30px;
   padding: 25px;
   padding-left: 80px;
   margin-right: 150px;
