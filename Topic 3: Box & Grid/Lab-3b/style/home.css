@@ -11,19 +11,23 @@ body .container {
 }
 
 #header {
+    border: solid 1px;
     grid-column-start: 1;
     grid-column-end: span 2;
 }
 
 #navigation {
+    border: solid 1px;
     grid-column-start: 1;
 }
 
 #main-content {
+    border: solid 1px;
     grid-column-start: 2;
 }
 
 #footer {
+    border: solid 1px;
     grid-column-start: 1;
     grid-column-end: span 2;
 }
