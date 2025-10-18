@@ -1,3 +1,10 @@
+/* The following "html *" rule is to allow visualisation of all element boxes on 
+the page */
+
+/* html * {
+    border: 1px solid red;
+} */
+
 body .container {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -5,6 +12,7 @@ body .container {
 
 #header {
     grid-column-start: 1;
+    grid-column-end: span 2;
 }
 
 #navigation {
@@ -17,4 +25,5 @@ body .container {
 
 #footer {
     grid-column-start: 1;
+    grid-column-end: span 2;
 }
