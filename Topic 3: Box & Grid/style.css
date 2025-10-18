@@ -69,6 +69,14 @@ p {
 
 .container {
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 10% 60% 20% 10%;
+}
+
+#main-content {
+  grid-column-start: 2;
+}
+
+#sidebar {
+  grid-column-start: 3;
 }
 
