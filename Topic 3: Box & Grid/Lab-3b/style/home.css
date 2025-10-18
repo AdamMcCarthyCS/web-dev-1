@@ -7,28 +7,28 @@ the page */
 
 body .container {
     display: grid;
-    grid-template-columns: 20% 77%;
+    grid-template-columns: 5% 18% 63% 5%;
     gap: 3%;
 }
 
 #header {
     border: solid 1px;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: span 2;
 }
 
 #navigation {
     border: solid 1px;
-    grid-column-start: 1;
+    grid-column-start: 2;
 }
 
 #main-content {
     border: solid 1px;
-    grid-column-start: 2;
+    grid-column-start: 3;
 }
 
 #footer {
     border: solid 1px;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: span 2;
 }
