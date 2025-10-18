@@ -1,5 +1,9 @@
 /* All parts of Lab2a are complete */
 
+/* html * {
+  border: 1px solid red;
+} */
+ 
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: small;
@@ -81,3 +85,12 @@ p {
   grid-column-start: 3;
 }
 
+.banner {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+#sidebar img {
+  width: 100%;
+}
