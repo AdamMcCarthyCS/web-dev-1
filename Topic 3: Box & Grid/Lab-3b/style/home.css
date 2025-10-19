@@ -41,6 +41,12 @@ body .container {
     width: 100%;
 }
 
+#primary-bottom img {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
 #secondary {
     grid-column-start: 2;
 }
