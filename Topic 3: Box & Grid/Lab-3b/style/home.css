@@ -2,7 +2,7 @@
 the page */
 
 /* html * {
-    border: 1px solid red;
+border: 1px solid red;
 } */
 
 body .container {
@@ -52,13 +52,11 @@ body .container {
     grid-column-start: 2;
 }
 
-
-
 #secondary img {
     float: right;
     width: 25%;
     margin: 10% 3% 0%;
-
+    
 }
 
 #footer {
