@@ -25,6 +25,19 @@ body .container {
 #main-content {
     border: solid 1px;
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 70% 27%;
+    gap: 3%;
+}
+
+#primary {
+    grid-column-start: 1;
+    border: solid 1px;
+}
+
+#secondary {
+    grid-column-start: 2;
+    border: solid 1px;
 }
 
 #footer {
