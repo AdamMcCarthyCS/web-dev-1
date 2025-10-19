@@ -12,18 +12,15 @@ body .container {
 }
 
 #header {
-    border: solid 1px;
     grid-column-start: 2;
     grid-column-end: span 2;
 }
 
 #navigation {
-    border: solid 1px;
     grid-column-start: 2;
 }
 
 #main-content {
-    border: solid 1px;
     grid-column-start: 3;
     display: grid;
     grid-template-columns: 70% 27%;
@@ -32,16 +29,13 @@ body .container {
 
 #primary {
     grid-column-start: 1;
-    border: solid 1px;
 }
 
 #secondary {
     grid-column-start: 2;
-    border: solid 1px;
 }
 
 #footer {
-    border: solid 1px;
     grid-column-start: 2;
     grid-column-end: span 2;
 }
