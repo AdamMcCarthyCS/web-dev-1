@@ -39,6 +39,7 @@ body .container {
 
 #primary-top img {
     width: 100%;
+    margin-top: 20%
 }
 
 #primary-bottom img {
@@ -49,6 +50,15 @@ body .container {
 
 #secondary {
     grid-column-start: 2;
+}
+
+
+
+#secondary img {
+    float: right;
+    width: 25%;
+    margin: 10% 3% 0%;
+
 }
 
 #footer {
