@@ -31,6 +31,16 @@ body .container {
     grid-column-start: 1;
 }
 
+#primary-top {
+    display: grid;
+    grid-template-columns: 67% 30%;
+    gap: 3%;
+}
+
+#primary-top img {
+    width: 100%;
+}
+
 #secondary {
     grid-column-start: 2;
 }
