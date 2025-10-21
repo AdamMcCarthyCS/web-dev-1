@@ -5,3 +5,31 @@ body .container {
     gap: 3%;
 }
 
+#header {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+#navigation {
+    grid-column-start: 2;
+}
+
+#main-content {
+    display: grid;
+    grid-column-start: 3;
+    grid-template-columns: 70% 27%;
+    gap: 3%;
+}
+
+#main-content .primary {
+    grid-column-start: 1;
+}
+
+#main-content .secondary {
+    grid-column-start: 2;
+}
+
+#footer {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+}
+
