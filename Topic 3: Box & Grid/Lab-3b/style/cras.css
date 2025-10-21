@@ -6,10 +6,15 @@ body .container {
     gap: 3%;
 }
 
+/* Header */
+
 #header {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: span 3;
 }
+
+/* Navigation */
+
 #navigation {
     grid-column-start: 2;
 }
@@ -23,7 +28,7 @@ body .container {
     gap: 3%;
 }
 
-/* Primary Colmun */
+/* Primary Column */
 
 #main-content .primary {
     grid-column-start: 1;
@@ -36,6 +41,7 @@ body .container {
 }
 
 /* Secondary Column */
+
 #main-content .secondary {
     grid-column-start: 2;
 }
@@ -56,8 +62,6 @@ body .container {
 .right img {
     float: right;
 }
-
-
 
 /* Footer Styling */
 
