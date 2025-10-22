@@ -12,13 +12,13 @@
     grid-column-start: 2;
 }
 
-#main-content .left {
+#main-content {
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 70% 27%;
+    gap: 3%;
 }
 
-#main-content .right {
-    grid-column-start: 3;
-}
 
 #footer {
     grid-column-start: 2;
