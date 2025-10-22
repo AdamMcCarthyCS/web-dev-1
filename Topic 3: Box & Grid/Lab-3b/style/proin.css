@@ -1,0 +1,26 @@
+#container {
+    display: grid;
+    grid-template-columns: 5% 10% 61% 5%;
+    gap: 3%;
+}
+
+#header {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+#navigation {
+    grid-column-start: 2;
+}
+
+#main-content .left {
+    grid-column-start: 3;
+}
+
+#main-content .right {
+    grid-column-start: 3;
+}
+
+#footer {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
