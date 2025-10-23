@@ -1,0 +1,96 @@
+/* All parts of Lab2a are complete */
+
+/* html * {
+border: 1px solid red;
+} */
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  background-color: cornsilk;
+  line-height: 1.6em;
+  /* The last one uncommented will display according to the
+  rules of the cascade */
+  /* line-height: 200%; */
+  /* line-height: 0.5em; */
+  /* line-height: 20px; */
+  background-image: url(images/pexels-padrinan.jpg);
+  background-size: cover;
+  
+}
+
+h1, h2 {
+  color: #007e7e;
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-shadow: 0 0 2px cyan;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-size: 150%;
+}
+
+em {
+  color: red;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  color: maroon;
+}
+
+.special {
+  color: red;
+}
+
+.favourites {
+  color: blue;
+  text-decoration: wavy underline fuchsia;
+}
+
+.guarantee {
+  border: 1px dashed #fff;
+  
+  background-color: #a7cece;
+  background-image: url(./images/background.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+  margin: 30px;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 150px;
+  
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 5% 55% 20% 5%;
+  grid-gap: 5%;
+}
+
+#main-content {
+  grid-column-start: 2;
+}
+
+#sidebar {
+  grid-column-start: 3;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+#sidebar img {
+  width: 100%;
+}
