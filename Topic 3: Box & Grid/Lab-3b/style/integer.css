@@ -15,6 +15,9 @@
 
 #main-content {
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 70% 27%;
+    gap: 3%
 }
 
 #footer {
