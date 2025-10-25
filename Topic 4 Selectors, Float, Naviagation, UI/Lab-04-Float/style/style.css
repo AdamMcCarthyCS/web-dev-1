@@ -20,3 +20,7 @@ body {
     background-color: lightblue;
     margin-left: 15px; /* has no effect */
 }
+
+.content-paragraph {
+    clear: left;
+}
