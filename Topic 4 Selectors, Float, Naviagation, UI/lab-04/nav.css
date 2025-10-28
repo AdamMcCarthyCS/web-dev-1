@@ -7,3 +7,11 @@ ul#menu li {
 ul#menu a {
     text-decoration: none;
 }
+
+#menu li.active a {
+    background-color: black;
+    color: white;
+    padding: .5em 2em;
+    border-radius: 10px;
+    
+}
