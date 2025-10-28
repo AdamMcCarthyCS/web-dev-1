@@ -55,6 +55,26 @@
   margin-right: auto
 }
 
+.fourth-img {
+  display: block;
+  width: 150px;
+  margin: auto;
+  
+}
 
+.right-top img, .right-bottom img{
+  width: 80px;
+  display: block;
+}
+
+.right-top img {
+  float: left;
+  margin: 10px;
+}
+
+.right-bottom img {
+  float: right;
+  margin: 10px;
+}
 
 
