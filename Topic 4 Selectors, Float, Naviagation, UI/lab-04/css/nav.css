@@ -1,0 +1,26 @@
+#header {
+    text-align: center;
+}
+
+#navigation {
+    text-align: center;
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ul#menu a {
+    text-decoration: none;
+}
+
+#menu li.active a {
+    background-color: black;
+    color: white;
+    padding: .5em 2em;
+    border-radius: 10px;
+    
+}
