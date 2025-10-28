@@ -1,0 +1,9 @@
+ul#menu li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ul#menu a {
+    text-decoration: none;
+}
