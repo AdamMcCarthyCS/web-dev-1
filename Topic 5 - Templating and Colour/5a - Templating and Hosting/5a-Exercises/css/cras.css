@@ -1,0 +1,72 @@
+/* Outer Body Grid */
+
+body .container {
+    display: grid;
+    grid-template-columns: 5% 10% 61% 5%;
+    gap: 3%;
+}
+
+/* Header */
+
+#header {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+}
+
+/* Navigation */
+
+#navigation {
+    grid-column-start: 2;
+}
+
+/* Main content styling */
+
+#main-content {
+    display: grid;
+    grid-column-start: 3;
+    grid-template-columns: 70% 27%;
+    gap: 3%;
+}
+
+/* Primary Column */
+
+#main-content .primary {
+    grid-column-start: 1;
+}
+
+.center img {
+    width: 150px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+/* Secondary Column */
+
+#main-content .secondary {
+    grid-column-start: 2;
+}
+
+.secondary img {
+    width: 50px;
+    margin: 10px;
+}
+
+.left, .right {
+    margin: 16px 0px;
+}
+
+.left img {
+    float: left;
+}
+
+.right img {
+    float: right;
+}
+
+/* Footer Styling */
+
+#footer {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+}
+
