@@ -9,8 +9,16 @@
     <img src="/images/banner.png" class="large-centre-img" alt="banner with dozens of app logos">
     <div class="container">
         {% include "header.njk" %}
-        {{ content | safe }}
+        <div id="maincontent">
+            <div id="primary">
+                {{ content | safe }}
+            </div>
+            <div id="secondary">
+                {% include "sidebar.njk" %}
+            </div>
+        </div>
         {% include "footer.njk" %}
-    </div>
+    
+    </div>  
 </body>
 </html>
