@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bundle App Store</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <img src="/images/banner.png" class="large-centre-img" alt="banner with dozens of app logos">
+    <div class="container">
+        {% include "header.njk" %}
+        <div id="maincontent">
+            <div id="primary">
+                {{ content | safe }}
+            </div>
+            <div id="secondary">
+                {% include "sidebar.njk" %}
+            </div>
+        </div>
+        {% include "footer.njk" %}
+    
+    </div>  
+</body>
+</html>
