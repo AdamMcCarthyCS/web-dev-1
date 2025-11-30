@@ -1,0 +1,11 @@
+ <nav class="tabs is-boxed"> <!--is-three-quarters doesnt do anything to tabs class-->
+    {% set navPages = collections.all | eleventyNavigation %}
+    <ul>
+        {%- for entry in navPages %}
+        <li{% if entry.url == page.url %} class="is-active" {% endif %}>
+            <a href="{{ entry.url | url}}">{{ entry.title }}</a>
+        </li>
+    {%- endfor %}
+    </ul>
+ </nav>
+
