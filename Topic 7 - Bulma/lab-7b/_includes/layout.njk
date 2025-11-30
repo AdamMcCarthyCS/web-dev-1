@@ -8,19 +8,16 @@
 </head>
 <body class="container">
     <img src="/images/banner.png" class="large-centre-img" alt="banner with dozens of app logos">
-    <main>
-        {% include "header.njk" %}
-        <div>
-            <div>
-                {% include "nav.njk" %}
-                {{ content | safe }}
-            </div>
-            <div>
-                {% include "sidebar.njk" %}
-            </div>
-        </div>
-        {% include "footer.njk" %}
-    
+    {% include "header.njk" %}
+    <main class="columns">
+        <section class="column is-three-quarters">
+            {% include "nav.njk" %}
+            {{ content | safe }}
+        </section>
+        <aside class="column is-one-quarter">
+            {% include "sidebar.njk" %}
+        </aside>
     </main>  
+    {% include "footer.njk" %}
 </body>
 </html>
