@@ -8,14 +8,14 @@
 </head>
 <body>
     <img src="/images/banner.png" class="large-centre-img" alt="banner with dozens of app logos">
-    <main class="container">
+    <main>
         {% include "header.njk" %}
-        <div id="maincontent">
-            <div id="primary">
+        <div>
+            <div>
                 {% include "nav.njk" %}
                 {{ content | safe }}
             </div>
-            <div id="secondary">
+            <div>
                 {% include "sidebar.njk" %}
             </div>
         </div>
