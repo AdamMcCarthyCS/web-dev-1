@@ -1,0 +1,24 @@
+<nav class="navbar is-dark has-background-black">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/images/logo-with-name.png" alt="Logo">
+        </a>
+        <span class="navbar-burger has-background-black" data-target="navbarMenu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </span>
+    </div>
+    <div id="navbarMenu" class="navbar-menu">
+        {% set navPages = collections.all | eleventyNavigation %}
+        <div class="navbar-end has-background-black">
+            {%- for entry in navPages %}
+            <a href="{{ entry.url | url }}" 
+            class="navbar-item has-text-white {% if entry.url == page.url %}is-active{% endif %}">
+                {{ entry.title }}
+            </a>
+            {%- endfor %}
+            
+        </div>
+    </div>
+</nav>
