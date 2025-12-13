@@ -1,35 +1,16 @@
 --- 
 layout: layout.njk 
 title: Focus
+playlistTitle: Focus
+playlistImage: https://images.unsplash.com/photo-1453728013993-6d66e9c9123a
+playlistDescription: A playlist to focus the mind
+playlistPath: /focus-playlist
 eleventyNavigation:
     key: Focus
     order: 3
 ---      
 <!-- START CARD -->
-<div class="column is-4">
-    <section class="card has-text-centered">
-        <header class="card-header">
-            <p class="card-header-title is-size-4 is-centered">
-                Focus
-            </p>
-        </header>
-        <div class="card-image">
-            <figure class="image">
-                <img src="https://images.unsplash.com/photo-1520809227329-2f94844a9635" alt="Image">
-            </figure>
-            <article class="card-content">
-                <p class="content is-size-4">
-                    Sure this is a great playlist
-                </p>
-            </article>
-            <footer class="card-footer">
-                <button class="card-footer-item button has-background-grey-lighter">Play</button>
-                <button class="card-footer-item button has-background-grey-lighter">Open</button>
-                <button class="card-footer-item button has-background-grey-lighter">Remove</button>
-            </footer>
-        </section>
-    </div>
-</div>
+{% include "playlist-card-component.njk" %}
 <!-- END CARD-->
 
 <!-- START TABLE -->
